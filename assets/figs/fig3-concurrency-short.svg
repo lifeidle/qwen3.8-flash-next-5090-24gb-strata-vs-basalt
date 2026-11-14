@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650">
+<rect width="1080" height="650" fill="#ffffff"/>
+<text x="96" y="46" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" font-weight="700" fill="#0f172a">短请求下的并发阶梯：聚合随并发上升，每路反而下降</text>
+<text x="96" y="74" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#64748b">IQ1_S · 71 token 提示 · 800 token 生成 · spec 8 · vision 开 · int8</text>
+<line x1="96" y1="532.0" x2="1040" y2="532.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="537.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">0</text>
+<line x1="96" y1="460.0" x2="1040" y2="460.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="465.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">50</text>
+<line x1="96" y1="388.0" x2="1040" y2="388.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="393.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">100</text>
+<line x1="96" y1="316.0" x2="1040" y2="316.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="321.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">150</text>
+<line x1="96" y1="244.0" x2="1040" y2="244.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="249.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">200</text>
+<line x1="96" y1="172.0" x2="1040" y2="172.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="177.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">250</text>
+<line x1="96" y1="100.0" x2="1040" y2="100.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="105.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">300</text>
+<rect x="150.8" y="285.0" width="79.3" height="247.0" rx="4" fill="#2563eb" opacity="0.25"/>
+<text x="190.4" y="275.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle">171.5</text>
+<text x="190.4" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#334155" text-anchor="middle">1 路</text>
+<rect x="339.6" y="251.8" width="79.3" height="280.2" rx="4" fill="#2563eb" opacity="0.25"/>
+<text x="379.2" y="241.8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle">194.6</text>
+<text x="379.2" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#334155" text-anchor="middle">2 路</text>
+<rect x="528.4" y="229.0" width="79.3" height="303.0" rx="4" fill="#2563eb" opacity="0.25"/>
+<text x="568.0" y="219.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle">210.4</text>
+<text x="568.0" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#334155" text-anchor="middle">3 路</text>
+<rect x="717.2" y="234.2" width="79.3" height="297.8" rx="4" fill="#2563eb" opacity="0.25"/>
+<text x="756.8" y="224.2" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle">206.8</text>
+<text x="756.8" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#334155" text-anchor="middle">4 路</text>
+<rect x="906.0" y="130.4" width="79.3" height="401.6" rx="4" fill="#2563eb" opacity="0.25"/>
+<text x="945.6" y="120.4" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle">278.9</text>
+<text x="945.6" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#334155" text-anchor="middle">8 路</text>
+<polyline points="190.4,285.0 379.2,384.7 568.0,428.9 756.8,453.8 945.6,480.7" fill="none" stroke="#f59e0b" stroke-width="3"/>
+<circle cx="190.4" cy="285.0" r="6" fill="#fff" stroke="#f59e0b" stroke-width="3"/>
+<text x="190.4" y="269.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#f59e0b" text-anchor="middle">171.5</text>
+<circle cx="379.2" cy="384.7" r="6" fill="#fff" stroke="#f59e0b" stroke-width="3"/>
+<text x="379.2" y="368.7" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#f59e0b" text-anchor="middle">102.3</text>
+<circle cx="568.0" cy="428.9" r="6" fill="#fff" stroke="#f59e0b" stroke-width="3"/>
+<text x="568.0" y="412.9" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#f59e0b" text-anchor="middle">71.6</text>
+<circle cx="756.8" cy="453.8" r="6" fill="#fff" stroke="#f59e0b" stroke-width="3"/>
+<text x="756.8" y="437.8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#f59e0b" text-anchor="middle">54.3</text>
+<circle cx="945.6" cy="480.7" r="6" fill="#fff" stroke="#f59e0b" stroke-width="3"/>
+<text x="945.6" y="464.7" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#f59e0b" text-anchor="middle">35.6</text>
+<rect x="96" y="77" width="14" height="14" rx="3" fill="#2563eb"/>
+<text x="116" y="89" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#334155">聚合 tok/s（柱）</text>
+<rect x="265" y="77" width="14" height="14" rx="3" fill="#f59e0b"/>
+<text x="285" y="89" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#334155">每路 tok/s（线）</text>
+<text x="96" y="620" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748b">3 路（210.4）高于 4 路（206.8）——4 路是 24GB 显存账上的坏点，要并发就跳过 4 直接上 8</text>
+</svg>
