@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650">
+<rect width="1080" height="650" fill="#ffffff"/>
+<text x="96" y="46" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" font-weight="700" fill="#0f172a">冷态 vs 热态：长上下文并发数字为什么不能信冷态</text>
+<text x="96" y="74" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#64748b">IQ1_S · 每路 96K · spec 8 · 冷态=全新文档真 prefill，热态=缓存命中纯 decode</text>
+<line x1="96" y1="532.0" x2="1040" y2="532.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="537.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">0</text>
+<line x1="96" y1="470.3" x2="1040" y2="470.3" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="475.3" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">40</text>
+<line x1="96" y1="408.6" x2="1040" y2="408.6" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="413.6" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">80</text>
+<line x1="96" y1="346.9" x2="1040" y2="346.9" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="351.9" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">120</text>
+<line x1="96" y1="285.1" x2="1040" y2="285.1" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="290.1" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">160</text>
+<line x1="96" y1="223.4" x2="1040" y2="223.4" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="228.4" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">200</text>
+<line x1="96" y1="161.7" x2="1040" y2="161.7" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="166.7" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">240</text>
+<line x1="96" y1="100.0" x2="1040" y2="100.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="105.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">280</text>
+<rect x="146.3" y="208.9" width="88.1" height="323.1" rx="4" fill="#94a3b8" opacity="1.0"/>
+<text x="190.4" y="196.9" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">209.4</text>
+<rect x="253.3" y="327.0" width="88.1" height="205.0" rx="4" fill="#10b981" opacity="1.0"/>
+<text x="297.4" y="315.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">132.9</text>
+<text x="253.3" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#334155" text-anchor="middle">3 路</text>
+<text x="253.3" y="590" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" font-weight="700" fill="#ef4444" text-anchor="middle">-37%</text>
+<rect x="461.0" y="166.5" width="88.1" height="365.5" rx="4" fill="#94a3b8" opacity="1.0"/>
+<text x="505.1" y="154.5" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">236.9</text>
+<rect x="568.0" y="331.3" width="88.1" height="200.7" rx="4" fill="#10b981" opacity="1.0"/>
+<text x="612.1" y="319.3" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">130.1</text>
+<text x="568.0" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#334155" text-anchor="middle">4 路</text>
+<text x="568.0" y="590" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" font-weight="700" fill="#ef4444" text-anchor="middle">-45%</text>
+<rect x="775.7" y="206.8" width="88.1" height="325.2" rx="4" fill="#94a3b8" opacity="1.0"/>
+<text x="819.7" y="194.8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">210.8</text>
+<rect x="882.7" y="374.8" width="88.1" height="157.2" rx="4" fill="#10b981" opacity="1.0"/>
+<text x="926.7" y="362.8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">101.9</text>
+<text x="882.7" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#334155" text-anchor="middle">8 路</text>
+<text x="882.7" y="590" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" font-weight="700" fill="#ef4444" text-anchor="middle">-52%</text>
+<rect x="96" y="77" width="14" height="14" rx="3" fill="#94a3b8"/>
+<text x="116" y="89" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#334155">冷态（混合 prefill，虚高）</text>
+<rect x="343" y="77" width="14" height="14" rx="3" fill="#10b981"/>
+<text x="363" y="89" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#334155">热态（真实并发 decode）</text>
+<text x="96" y="620" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748b">冷态时部分请求在 prefill、其余独占 GPU，读数虚高 37-52%；只有热态才代表窗口同时生成时的真实体验</text>
+</svg>
