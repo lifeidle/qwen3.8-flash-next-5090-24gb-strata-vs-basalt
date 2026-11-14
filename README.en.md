@@ -221,6 +221,10 @@ cd D:\Strata\basalt-win\basalt-v0.3.3-windows-x64
 
 ---
 
+## History
+
+The full 2026-09-11 → 11-13 iteration log (llama.cpp era at 27 tok/s → Strata dual 256K unlock → Basalt takeover) lives in [docs/history-legacy.md](docs/history-legacy.md).
+
 ## Credits
 
 Model: Qwen3.8-Flash-Next (Alibaba) · GGUF quants by Unsloth (UD) and ISTA-DASLab (IQ3_S).
