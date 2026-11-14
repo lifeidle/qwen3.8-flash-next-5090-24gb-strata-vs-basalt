@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650">
+<rect width="1080" height="650" fill="#ffffff"/>
+<text x="96" y="46" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" font-weight="700" fill="#0f172a">专家权重的归宿：显存 / 内存 / SSD</text>
+<text x="96" y="74" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#64748b">engine.log 实测（双路满上下文）· 三者总量均为 31.1 / 46.8 / 46.8 GiB</text>
+<text x="96" y="153.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" font-weight="700" fill="#0f172a">IQ1_S</text>
+<rect x="214.0" y="120.0" width="387.6" height="54.0" rx="0" fill="#2563eb" opacity="1.0"/>
+<text x="407.8" y="153.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">51%</text>
+<rect x="601.6" y="120.0" width="372.4" height="54.0" rx="0" fill="#10b981" opacity="1.0"/>
+<text x="787.8" y="153.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">49%</text>
+<text x="214" y="196" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#64748b">显存 51% · 内存 49% · SSD 0%（0 blob reads）</text>
+<text x="96" y="273.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" font-weight="700" fill="#0f172a">IQ3_XXS</text>
+<rect x="214.0" y="240.0" width="258.4" height="54.0" rx="0" fill="#2563eb" opacity="1.0"/>
+<text x="343.2" y="273.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">34%</text>
+<rect x="472.4" y="240.0" width="501.6" height="54.0" rx="0" fill="#10b981" opacity="1.0"/>
+<text x="723.2" y="273.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">66%</text>
+<text x="214" y="316" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#64748b">显存 34% · 内存 66% · SSD 0%（0 blob reads）</text>
+<text x="96" y="393.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="17" font-weight="700" fill="#0f172a">IQ3_S</text>
+<rect x="214.0" y="360.0" width="258.4" height="54.0" rx="0" fill="#2563eb" opacity="1.0"/>
+<text x="343.2" y="393.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">34%</text>
+<rect x="472.4" y="360.0" width="501.6" height="54.0" rx="0" fill="#10b981" opacity="1.0"/>
+<text x="723.2" y="393.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">66%</text>
+<text x="214" y="436" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#64748b">显存 34% · 内存 66% · SSD 0%（0 blob reads）</text>
+<rect x="96" y="509" width="14" height="14" rx="3" fill="#2563eb"/>
+<text x="116" y="521" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#334155">VRAM</text>
+<rect x="174" y="509" width="14" height="14" rx="3" fill="#10b981"/>
+<text x="194" y="521" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#334155">RAM（走 PCIe）</text>
+<rect x="343" y="509" width="14" height="14" rx="3" fill="#ef4444"/>
+<text x="363" y="521" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#334155">SSD（最慢）</text>
+<text x="96" y="566" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748b">三个量化都是 0% 上 SSD；差距在"多少专家留在内存走 PCIe"——这就是 IQ1_S 更快、也能撑 8 并发的根本原因</text>
+<text x="96" y="590" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748b">IQ3_XXS 需要 31.1 GiB RAM，在 63.4GB 机器上 pin 满就没有缓冲 → 跑久必撞 RAM 守卫（HTTP 500）</text>
+</svg>
