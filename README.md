@@ -261,6 +261,10 @@ cd D:\Strata\basalt-win\basalt-v0.3.3-windows-x64
 
 ---
 
+## 历史记录
+
+本仓库 2026-09-11 → 11-13 的完整迭代（llama.cpp 时代 27 tok/s → Strata 双路 256K 解锁 → 引入 Basalt）见 [docs/history-legacy.md](docs/history-legacy.md)。
+
 ## 致谢与声明
 
 - 模型：Qwen3.8-Flash-Next（阿里通义千问）· GGUF 量化来自 Unsloth（UD 系列）与 ISTA-DASLab（IQ3_S）
