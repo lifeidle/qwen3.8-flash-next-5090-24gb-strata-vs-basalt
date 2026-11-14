@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650">
+<rect width="1080" height="650" fill="#ffffff"/>
+<text x="96" y="46" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" font-weight="700" fill="#0f172a">三个量化在同一台机器上的真实差距</text>
+<text x="96" y="74" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#64748b">双路 · 每路灌满 20~26 万 token · vision 开 · int8 KV · spec 8 · 默认配置</text>
+<line x1="96" y1="532.0" x2="1040" y2="532.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="537.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">0</text>
+<line x1="96" y1="460.0" x2="1040" y2="460.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="465.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">33</text>
+<line x1="96" y1="388.0" x2="1040" y2="388.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="393.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">67</text>
+<line x1="96" y1="316.0" x2="1040" y2="316.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="321.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">100</text>
+<line x1="96" y1="244.0" x2="1040" y2="244.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="249.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">133</text>
+<line x1="96" y1="172.0" x2="1040" y2="172.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="177.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">167</text>
+<line x1="96" y1="100.0" x2="1040" y2="100.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="84" y="105.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#475569" text-anchor="end">200</text>
+<rect x="165.2" y="305.6" width="81.8" height="226.4" rx="4" fill="#2563eb" opacity="0.55"/>
+<text x="206.1" y="293.6" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">104.8</text>
+<rect x="259.6" y="169.3" width="81.8" height="362.7" rx="4" fill="#2563eb" opacity="1.0"/>
+<text x="300.5" y="157.3" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">167.9</text>
+<text x="253.3" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" font-weight="700" fill="#334155" text-anchor="middle">IQ1_S 256K 灌满</text>
+<text x="253.3" y="586" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748b" text-anchor="middle">top-1 82.8%</text>
+<rect x="479.9" y="323.8" width="81.8" height="208.2" rx="4" fill="#10b981" opacity="0.55"/>
+<text x="520.8" y="311.8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">96.4</text>
+<rect x="574.3" y="235.6" width="81.8" height="296.4" rx="4" fill="#10b981" opacity="1.0"/>
+<text x="615.2" y="223.6" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">137.2</text>
+<text x="568.0" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" font-weight="700" fill="#334155" text-anchor="middle">IQ3_XXS 200K</text>
+<text x="568.0" y="586" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748b" text-anchor="middle">top-1 88.7%</text>
+<rect x="794.6" y="339.8" width="81.8" height="192.2" rx="4" fill="#f59e0b" opacity="0.55"/>
+<text x="835.5" y="327.8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">89.0</text>
+<rect x="889.0" y="238.0" width="81.8" height="294.0" rx="4" fill="#f59e0b" opacity="1.0"/>
+<text x="929.9" y="226.0" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">136.1</text>
+<text x="882.7" y="560" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" font-weight="700" fill="#334155" text-anchor="middle">IQ3_S 200K</text>
+<text x="882.7" y="586" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748b" text-anchor="middle">top-1 87.6%</text>
+<rect x="96" y="77" width="14" height="14" rx="3" fill="#2563eb"/>
+<text x="116" y="89" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#334155">浅色=每路 tok/s，深色=聚合 tok/s</text>
+<text x="96" y="620" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748b">IQ3_XXS 质量最高且比 IQ3_S 略快；IQ1_S 快 10-25% 但 top-1 低 6 个点，且内存余量大、可撑 8 并发</text>
+</svg>
